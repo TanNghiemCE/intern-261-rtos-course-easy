@@ -3,7 +3,7 @@
 > **Commit file này TRƯỚC khi nạp chương trình lần đầu.** Report sẽ phải giải thích
 > mọi chỗ dự đoán lệch so đo. Dự đoán sai không bị trừ điểm; dự đoán sau khi đo thì bị.
 
-`student_id`: 2510343    Ngày/giờ commit: ______
+`student_id`: 2510343    Ngày/giờ commit: 11/10 - 20h35
 
 1. Chu kỳ LED tôi sẽ đo được: 83 ms (`BLINK_PERIOD_MS` = 83)
 2. Sai số giữa chu kỳ đo được và `BLINK_PERIOD_MS`: 3 - 5 us. Vì sao: độ lệch của thạch anh ( tối đa 50ppm), 83ms (1 tick = 1ms) -> đếm tới 83 ticks. Lấy 83ms*50ppm = 4.15us. Ngoài ra còn có thể do thời gian thực thi mã lệnh, ở tần số 72Mhz, 1 chu kỳ mất (1/fclk) = 13.88ns, vài chục lệnh thì mất vài us.
