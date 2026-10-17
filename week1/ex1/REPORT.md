@@ -12,7 +12,7 @@
 | Sai số trung bình vs `BLINK_PERIOD_MS` | -1.0073ms |
 | `uxTaskGetStackHighWaterMark()` của bringup_task | 103 words (~ 10s chạy debug) |
 *GHI CHÚ LẤY MẪU*: Lấy 2M mẫu ở tần số 1Mhz ( chu kì 1us)
-Ảnh PulseView (>= 10 chu kỳ, đọc được giá trị): `![PulseView chân PA0, 11 chu kỳ liên tiếp](do_ex1.jpg)`
+Ảnh PulseView (>= 10 chu kỳ, đọc được giá trị): ![PulseView chân PA0, 11 chu kỳ liên tiếp](w1_ex1_image/do_ex1.jpg)
 
 ## 2. Ba handler của kernel
 | Tên trong port ARM_CM3 | Tên trong vector table | Nhiệm vụ |
