@@ -25,3 +25,6 @@ CMakeUserPresets.json
 
 # LibreOffice lock files
 .~lock.*#
+
+*.csv
+
