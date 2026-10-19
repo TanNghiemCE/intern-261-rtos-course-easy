@@ -4,9 +4,9 @@
 ## 1. Bảng thống kê (tính từ CSV, không đọc tay)
 | # | Delay | Tick | min (ms) | max (ms) | tb (ms) | jitter = max−min (us) | drift tổng (ms) |
 |---|---|---|---|---|---|---|---|
-| 1 | `vTaskDelay` | 1000 |12.998 |13.999 |13.447 |1001 |223.373 |
-| 2 | `xTaskDelayUntil` | 1000 |12.998 |12.999 |12.999 |1.0 |-0.603 |
-| 3 | `vTaskDelay` | 100 |9.999 |10.000 |9.999 |1.0 |-1500.466 |
+| 1 | `vTaskDelay` | 1000 |12.998 |13.999 |13.461 |1001.0 |223.373 |
+| 2 | `xTaskDelayUntil` | 1000 |12.998 |12.999 |12.999 |1.0 | -0.603 |
+| 3 | `vTaskDelay` | 100 |9.999 |10.000 |9.999 |1.0 |-1500.466|
 | 4 | `xTaskDelayUntil` | 100 |9.999 |10.000 |9.999 |1.0 |-1500.466 |
 
 - Script dùng để tính: `app/calc_stats.py`
@@ -17,15 +17,13 @@
 Công thức drift theo `PERIOD_MS` và `WORK_JITTER_US` của **bạn**, rồi so với số đo:
 - Xác suất tải vượt qua 1000us: 1800-1000/1800 = 44.44%
 - Drift tổng : 500*44.44% * 1 = 222.22ms
-
-| | Tính theo công thức | Đo được | Lệch |
 |---|---|---|---|
 | Drift tổng (ms) |222.22 |223.373 |1.153 |
 
 ## 3. Tại sao tick 100 Hz sai nhiều hơn
 `PERIOD_MS` = 13ms ; một tick = 10  ms. Chứng minh bằng số đo, không bằng lý thuyết: 
 - Chu kỳ thực tế ở cấu hình 3 và 4 đều là 9.999ms ( thay vì 13.000ms), sai số : 23.08%
-- Sau 500 chu kỳ, tổng thời gian độ được chỉ đạt 4999.5ms ( thiếu hụt so với 6500ms lý thuyết), dẫn tới drift đo được là -1500.466ms
+- Sau 500 chu kỳ, tổng thời gian đo được chỉ đạt 4999.5ms ( thiếu hụt so với 6500ms lý thuyết), dẫn tới drift đo được là -1500.466ms
 
 ## 4. `xTaskDelayUntil` trả về gì
 Giá trị trả về nghĩa là gì, và trong 4 lần chạy của bạn nó có bao giờ báo
