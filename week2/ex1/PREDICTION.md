@@ -2,7 +2,7 @@
 
 > **Commit TRƯỚC khi nạp chương trình.**
 
-`student_id`: 2519343
+`student_id`: 2510343
 
 1. Phép tính kích thước queue tối thiểu (dùng `SAMPLE_PERIOD_MS`, thời gian xử lý
    ước lượng của `filter_task` và `uart_task` ở `UART_BAUD`):
