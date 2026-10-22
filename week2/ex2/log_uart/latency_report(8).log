@@ -1,0 +1,45 @@
+ LATENCY REPORT (MODE 1) - 50 SAMPLES/TASK (8 TASKS)
+============================================================
+ Task 0: Avg = 13034 us, Min = 2099 us, Max = 14859 us
+ Task 1: Avg = 14433 us, Min = 2100 us, Max = 26784 us
+ Task 2: Avg = 14375 us, Min = 2100 us, Max = 26897 us
+ Task 3: Avg = 13164 us, Min = 2099 us, Max = 14859 us
+ Task 4: Avg = 12990 us, Min = 2099 us, Max = 14860 us
+ Task 5: Avg = 12760 us, Min = 2099 us, Max = 14859 us
+ Task 6: Avg = 14320 us, Min = 2099 us, Max = 26785 us
+ Task 7: Avg = 14554 us, Min = 2096 us, Max = 26898 us
+------------------------------------------------------------
+ OVERALL: Avg = 13704 us, Min = 2096 us, Max = 26898 us
+=======================================================
+
+============================================================
+   LATENCY REPORT (MODE 2) - 50 SAMPLES/TASK (8 TASKS)
+============================================================
+ Task 0: Avg = 16528 us, Min = 2194 us, Max = 16842 us
+ Task 1: Avg = 14737 us, Min = 14732 us, Max = 14991 us
+ Task 2: Avg = 12648 us, Min = 12643 us, Max = 12901 us
+ Task 3: Avg = 10559 us, Min = 10554 us, Max = 10811 us
+ Task 4: Avg = 8470 us, Min = 8465 us, Max = 8722 us
+ Task 5: Avg = 6382 us, Min = 6377 us, Max = 6633 us
+ Task 6: Avg = 4294 us, Min = 4289 us, Max = 4544 us
+ Task 7: Avg = 2210 us, Min = 2203 us, Max = 2455 us
+------------------------------------------------------------
+ OVERALL: Avg = 9478 us, Min = 2194 us, Max = 16842 us
+============================================================
+
+============================================================
+   LATENCY REPORT (MODE 3) - 50 SAMPLES/TASK (8 TASKS)
+============================================================
+ Task 0: Avg = 16870 us, Min = 2242 us, Max = 17172 us
+ Task 1: Avg = 15055 us, Min = 15036 us, Max = 15991 us
+ Task 2: Avg = 12925 us, Min = 12904 us, Max = 13858 us
+ Task 3: Avg = 2609 us, Min = 2249 us, Max = 11725 us
+ Task 4: Avg = 10708 us, Min = 8632 us, Max = 10776 us
+ Task 5: Avg = 8576 us, Min = 6500 us, Max = 8644 us
+ Task 6: Avg = 6445 us, Min = 4369 us, Max = 6513 us
+ Task 7: Avg = 4313 us, Min = 2238 us, Max = 4381 us
+------------------------------------------------------------
+ OVERALL: Avg = 9688 us, Min = 2238 us, Max = 17172 us
+========================================================
+
+

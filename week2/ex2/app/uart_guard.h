@@ -4,9 +4,15 @@
 #include <stddef.h>
 
 /* 0 = none (the bug), 1 = mutex, 2 = critical section, 3 = gatekeeper task.
- * Build this file four times over the exercise, once per mode. */
+ * Chon mode tuong ung de bien dich va kiem tra. */
 #ifndef UART_GUARD_MODE
-#define UART_GUARD_MODE 0
+#define UART_GUARD_MODE 2
+#endif
+
+/* 1 = Bat do do tre DWT va xuat bang bao cao tong ket duy nhat
+ * 0 = Che do in lien tuc thong thuong cua cac task writer ra UART */
+#ifndef ENABLE_LATENCY_REPORT
+#define ENABLE_LATENCY_REPORT 1
 #endif
 
 void uart_guard_init(void);
