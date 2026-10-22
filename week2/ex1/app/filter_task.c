@@ -66,11 +66,6 @@ void filter_task(void *argument)
                 out.ay = (int16_t)(sum_ay / FILTER_WINDOW);
                 out.az = (int16_t)(sum_az / FILTER_WINDOW);
             }
-            /* TODO 4: fill out.ax/ay/az from the running average (done above). */
-
-            /* TODO 5: xQueueSend(queue_filtered, &out, <timeout>) — same question
-             *         as sensor_task: what should happen here if uart_task is
-             *         slow and queue_filtered is full? */
             xQueueSend(queue_filtered, &out, 0);
         }
     }

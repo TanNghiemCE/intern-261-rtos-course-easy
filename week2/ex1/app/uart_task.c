@@ -23,7 +23,7 @@ void uart_task(void *argument)
         filtered_sample_t in;
 
         /* TODO 1: xQueueReceive(queue_filtered, &in, portMAX_DELAY). */
-        if (xQueueReceive(queue_filtered, &in, portMAX_DELAY) == pdTRUE) {
+    if (xQueueReceive(queue_filtered, &in, portMAX_DELAY) == pdTRUE) {
     UBaseType_t raw_q  = uxQueueMessagesWaiting(queue_raw);
     UBaseType_t filt_q = uxQueueMessagesWaiting(queue_filtered);
 

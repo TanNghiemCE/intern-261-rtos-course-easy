@@ -41,17 +41,14 @@ void sensor_task(void *argument)
             s.ay = (int16_t)((buf[2] << 8) | buf[3]);
             s.az = (int16_t)((buf[4] << 8) | buf[5]);
         } else {
-            /* Fallback giả lập dữ liệu khi chưa cắm cảm biến hoặc bus I2C bận, 
-             * giúp pipeline không bị treo trên bàn thí nghiệm.
-             */
-            s.ax = (int16_t)((seq * 17) % 500);
-            s.ay = (int16_t)((seq * 31) % 500);
-            s.az = 16384; /* ~1g ở dải đo +-2g */
+            s.ax = 0;
+            s.ay = 0;
+            s.az =0;
         }
         /* TODO 3: xQueueSend(queue_raw, &s, <timeout>) — pick and justify the
          *         timeout in PREDICTION.md question 3/4. What happens to this
          *         sample if the queue is full and the timeout expires? */
-         xQueueSend(queue_raw, &s, 0);
+        xQueueSend(queue_raw, &s, 0);
         vTaskDelayUntil(&last_wake, pdMS_TO_TICKS(SAMPLE_PERIOD_MS));
     }
 }
