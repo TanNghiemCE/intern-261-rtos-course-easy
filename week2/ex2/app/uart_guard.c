@@ -11,7 +11,7 @@
 #include "uart_guard.h"
 
 #define GATEKEEPER_QUEUE_LEN      (WRITER_COUNT * 2)
-#define GATEKEEPER_STACK_SIZE     (128)
+#define GATEKEEPER_STACK_SIZE     (256)
 #define UART_TIMEOUT_MS           (100)
 
 extern UART_HandleTypeDef huart1;
