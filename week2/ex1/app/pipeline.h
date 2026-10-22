@@ -15,7 +15,9 @@ typedef struct {
 /* One filtered sample, passed filter_task -> uart_task. */
 typedef struct {
     uint32_t seq;
+    int16_t  raw_ay;  /* <-- THÊM: Mẫu thô ay để đối chiếu độ trễ */
     int16_t  ax, ay, az;
+
 } filtered_sample_t;
 
 extern QueueHandle_t queue_raw;

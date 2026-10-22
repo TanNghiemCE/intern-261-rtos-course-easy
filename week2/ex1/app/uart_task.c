@@ -13,19 +13,27 @@
 #include "params.h"
 #include "pipeline.h"
 
+extern UART_HandleTypeDef huart1;
+
 void uart_task(void *argument)
 {
     (void)argument;
-
+    char msg[64];
     for (;;) {
         filtered_sample_t in;
 
         /* TODO 1: xQueueReceive(queue_filtered, &in, portMAX_DELAY). */
+        if (xQueueReceive(queue_filtered, &in, portMAX_DELAY) == pdTRUE) {
+    UBaseType_t raw_q  = uxQueueMessagesWaiting(queue_raw);
+    UBaseType_t filt_q = uxQueueMessagesWaiting(queue_filtered);
 
-        /* TODO 2: format "seq,ax,ay,az\r\n" and HAL_UART_Transmit on USART1.
-         *         Transmit time at UART_BAUD is the thing that makes this
-         *         task slow relative to sensor_task/filter_task — say so in
-         *         REPORT.md with the actual byte time you computed. */
-        (void)in;
+   /* Định dạng mới: seq,raw_ay,filt_ay,raw_q,filt_q */
+int len = snprintf(msg, sizeof(msg), "%lu,%d,%d,%u,%u\r\n",
+                   (unsigned long)in.seq, (int)in.raw_ay, (int)in.ay,
+                   (unsigned int)raw_q, (unsigned int)filt_q);
+    if (len > 0) {
+        HAL_UART_Transmit(&huart1, (uint8_t *)msg, (uint16_t)len, 200);
+    }
+}
     }
 }
