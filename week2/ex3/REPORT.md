@@ -1,6 +1,6 @@
 # Report — Week 2 / Ex3
 
-`student_id`: ______    Commit của PREDICTION.md: ______
+`student_id`: 2510343    Commit của PREDICTION.md:  ba80d0c
 
 ## 1. Ảnh đo
 Binary semaphore: `![](inversion_binsem.png)`

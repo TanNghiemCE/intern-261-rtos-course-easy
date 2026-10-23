@@ -8,9 +8,11 @@
 #endif
 
 void resource_init(void);
+void dwt_init(void);
 
 void task_low(void *argument);
 void task_mid(void *argument);
 void task_high(void *argument);
+
 
 #endif /* TASKS_LMH_H */
