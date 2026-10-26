@@ -2,7 +2,7 @@
  * microseconds of CPU inside a task without blocking.
  */
 #include "stm32f1xx.h"
-#include "tasks.h"
+#include "tasks_lmh.h"
 #include <stdint.h>
 
 void dwt_init(void)

@@ -15,7 +15,7 @@
 #include "main.h"
 #include "params.h"
 #include "tasks_lmh.h"
-
+void dwt_init(void);
 static SemaphoreHandle_t s_resource;
 void resource_init(void)
 {
@@ -45,7 +45,7 @@ void task_low(void *argument)
          *         this task must not monopolize the CPU outside the hold. */
         xSemaphoreTake(s_resource,portMAX_DELAY);
         HAL_GPIO_WritePin(GPIOA, (uint16_t)(1UL<<0),GPIO_PIN_SET);
-        dwt_busy_wait_us(LOW_HOLD_MS*1000UL); 
+        dwt_busy_wait_us(LOW_HOLD_MS * 1000UL); 
         HAL_GPIO_WritePin(GPIOA, (uint16_t)(1UL<<0),GPIO_PIN_RESET);
         xSemaphoreGive(s_resource);
         vTaskDelay(pdMS_TO_TICKS(5));
@@ -80,7 +80,7 @@ void task_high(void *argument)
          *         is your block time t1 - t0. */
         HAL_GPIO_WritePin(GPIOA, (uint16_t)(1UL<<6),GPIO_PIN_SET);
         xSemaphoreTake(s_resource,portMAX_DELAY);
-        dwt_busy_wait_us(100); 
+        dwt_busy_wait_us(1000); 
         xSemaphoreGive(s_resource);
         HAL_GPIO_WritePin(GPIOA, (uint16_t)(1UL<<6),GPIO_PIN_RESET);
         vTaskDelayUntil(&last_wake, pdMS_TO_TICKS(HIGH_PERIOD_MS));

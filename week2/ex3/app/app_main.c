@@ -12,7 +12,6 @@ void app_main(void)
 {
     dwt_init();
     resource_init();
-
     /* TODO: xTaskCreate task_low, task_mid, task_high with three DISTINCT
      *       priorities, low < mid < high. Justify the exact numbers in
      *       REPORT.md — they must leave room for configMAX_PRIORITIES and not
@@ -27,7 +26,6 @@ void app_main(void)
     configASSERT(check_task_mid == pdTRUE);
     configASSERT(check_task_high == pdTRUE);
     vTaskStartScheduler();
-
     for (;;) {
     }
 }
