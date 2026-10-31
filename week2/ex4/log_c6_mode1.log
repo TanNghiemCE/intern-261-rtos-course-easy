@@ -1,0 +1,36 @@
+[01] sync_tick=5, period_ticks=5 (5031 us), d_notify=870 cyc, d_eg=1081 cyc
+[02] sync_tick=9, period_ticks=4 (4003 us), d_notify=870 cyc, d_eg=1081 cyc
+[03] sync_tick=14, period_ticks=5 (4968 us), d_notify=870 cyc, d_eg=1081 cyc
+[04] sync_tick=17, period_ticks=3 (3034 us), d_notify=870 cyc, d_eg=1081 cyc
+[05] sync_tick=21, period_ticks=4 (3971 us), d_notify=870 cyc, d_eg=0 cyc
+[06] sync_tick=24, period_ticks=3 (3003 us), d_notify=870 cyc, d_eg=0 cyc
+[07] sync_tick=28, period_ticks=4 (4022 us), d_notify=870 cyc, d_eg=0 cyc
+[08] sync_tick=32, period_ticks=4 (4000 us), d_notify=870 cyc, d_eg=0 cyc
+[09] sync_tick=35, period_ticks=3 (2999 us), d_notify=870 cyc, d_eg=0 cyc
+[10] sync_tick=39, period_ticks=4 (4003 us), d_notify=870 cyc, d_eg=0 cyc
+[11] sync_tick=42, period_ticks=3 (2969 us), d_notify=870 cyc, d_eg=1081 cyc
+[12] sync_tick=46, period_ticks=4 (4002 us), d_notify=870 cyc, d_eg=0 cyc
+[13] sync_tick=49, period_ticks=3 (3003 us), d_notify=870 cyc, d_eg=0 cyc
+[14] sync_tick=53, period_ticks=4 (4025 us), d_notify=870 cyc, d_eg=0 cyc
+[15] sync_tick=57, period_ticks=4 (3997 us), d_notify=870 cyc, d_eg=0 cyc
+[16] sync_tick=60, period_ticks=3 (2969 us), d_notify=870 cyc, d_eg=1081 cyc
+[17] sync_tick=64, period_ticks=4 (4059 us), d_notify=870 cyc, d_eg=1081 cyc
+[18] sync_tick=69, period_ticks=5 (4940 us), d_notify=870 cyc, d_eg=1081 cyc
+[19] sync_tick=72, period_ticks=3 (3025 us), d_notify=870 cyc, d_eg=1081 cyc
+[20] sync_tick=77, period_ticks=5 (4977 us), d_notify=870 cyc, d_eg=1081 cyc
+[21] sync_tick=82, period_ticks=5 (4999 us), d_notify=870 cyc, d_eg=1081 cyc
+[22] sync_tick=86, period_ticks=4 (4003 us), d_notify=870 cyc, d_eg=1081 cyc
+[23] sync_tick=91, period_ticks=5 (4993 us), d_notify=870 cyc, d_eg=1081 cyc
+[24] sync_tick=95, period_ticks=4 (4006 us), d_notify=870 cyc, d_eg=1081 cyc
+[25] sync_tick=97, period_ticks=2 (2028 us), d_notify=870 cyc, d_eg=1081 cyc
+[26] sync_tick=101, period_ticks=4 (3965 us), d_notify=870 cyc, d_eg=1081 cyc
+[27] sync_tick=105, period_ticks=4 (4005 us), d_notify=870 cyc, d_eg=0 cyc
+[28] sync_tick=108, period_ticks=3 (2994 us), d_notify=870 cyc, d_eg=1081 cyc
+[29] sync_tick=111, period_ticks=3 (3030 us), d_notify=870 cyc, d_eg=0 cyc
+[30] sync_tick=116, period_ticks=5 (4969 us), d_notify=870 cyc, d_eg=1081 cyc
+=== SUMMARY (30 LOGS, BITS=4, NOTIFY=1) ===
+RAM EventGroup : struct=24 B, heap=32 B
+RAM Notify     : heap=0 B, TCB_fields=5 B (TCB=84 B, free_heap=3120 B)
+Wakeup Notify  : avg=870 cyc (12.08 us) [n=30]
+Wakeup EventGrp: avg=1081 cyc (15.01 us) [n=18]
+Sync Period Avg: 3.86 ticks (3866 us)

@@ -1,0 +1,34 @@
+----Event Group------
+[BCAST 01 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 02 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 03 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 04 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 05 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 06 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 07 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 08 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 09 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 10 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 11 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 12 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 13 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 14 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 15 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 16 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 17 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 18 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 19 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 20 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 21 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 22 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 23 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 24 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 25 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 26 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 27 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 28 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 29 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+[BCAST 30 | NOTIFY=0] send_cost=5728 cyc | L0=1776, L1=3006, L2=4236 cyc
+=== BCAST SUMMARY (N=3, NOTIFY=0, 30 samples) ===
+avg send_cost = 5728 cyc | avg L0 = 1776, L1 = 3006, L2 = 4236 cyc
+

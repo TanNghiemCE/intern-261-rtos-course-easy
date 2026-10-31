@@ -1,0 +1,32 @@
+[BCAST 01 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 02 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 03 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 04 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 05 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 06 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 07 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 08 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 09 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 10 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 11 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 12 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 13 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 14 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 15 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 16 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 17 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 18 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 19 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 20 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 21 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 22 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 23 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 24 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 25 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 26 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 27 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 28 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 29 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+[BCAST 30 | NOTIFY=1] send_cost=6002 cyc | L0=912, L1=2902, L2=4892 cyc
+=== BCAST SUMMARY (N=3, NOTIFY=1, 30 samples) ===
+avg send_cost = 6002 cyc | avg L0 = 912, L1 = 2902, L2 = 4892 cyc
