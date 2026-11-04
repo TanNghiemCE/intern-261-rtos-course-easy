@@ -10,13 +10,12 @@
 
 void app_main(void)
 {
+    HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
     exti_button_init();
-
-    /* TODO: xTaskCreate ack_task. Keep its priority high enough that it is
-     *       the thing that actually determines your measured latency, not
-     *       scheduling jitter from something else. Justify the number in
-     *       REPORT.md. */
-
+    BaseType_t check = xTaskCreate(
+        ack_task,"ack_task",256,NULL,4,NULL
+    );
+    configASSERT(check == pdPASS);
     vTaskStartScheduler();
 
     for (;;) {
