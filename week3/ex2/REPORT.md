@@ -41,7 +41,7 @@ HELD 52401
 HELD 53401
 PRESS 54324
 ```
-  - **Phân tích số đo từ `log_1.log`:**
+  - **Phân tích số đo từ `log_1.log`:** **
     - Cặp nhấn giữ 1: `PRESS 45488` $\rightarrow$ `HELD 46473`. Khoảng cách: $46473 - 45488 = 985\text{ ticks}$ (`985 ms`).
     - Cặp nhấn giữ 2: `PRESS 51416` $\rightarrow$ `HELD 52401`. Khoảng cách: $52401 - 51416 = 985\text{ ticks}$ (`985 ms`).
     - Khoảng cách này luôn cố định bằng $\text{LONGPRESS\_MS} - \text{DEBOUNCE\_MS} = 1000 - 15 = 985\text{ ms}$ vì cả hai timer đều được kích hoạt tại cùng cạnh nhấn cuối cùng trong ISR.

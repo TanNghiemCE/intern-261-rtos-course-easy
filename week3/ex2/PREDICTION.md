@@ -7,7 +7,7 @@
 1. Với nút nhấn cơ khí thông thường, nảy phím thường kéo dài bao lâu
    (tra cứu/ước lượng)? So với `DEBOUNCE_MS` của bạn: đủ lớn để lọc hết không?
    - Nảy phím thường kéo dài khoảng 1-5ms ( phụ thuộc vào nút nhấn mới hay cũ)
-   - `DEBOUNCE_MS = 15ms > 5 ms` -> đủ để lọc hết.
+   - `DEBOUNCE_MS = 15ms > 5 ms` -> đủ lọc.
 2. Nếu `DEBOUNCE_MS` quá lớn, điều gì xảy ra khi người dùng nhấn nhả rất
    nhanh liên tiếp (double-click)?
    - Thời gian debounce quá lớn làm bỏ qua tín hiệu nhấn nút liền tiếp khi người dùng double click.
