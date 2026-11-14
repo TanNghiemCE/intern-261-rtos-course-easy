@@ -1,0 +1,142 @@
+Task          Abs Time        % Time
+--------------------------------------
+stats          297481752%
+IDLE           100174072596%
+beta           3426440<1%
+alpha          2251683<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          318932692%
+IDLE           107334559196%
+alpha          2411677<1%
+beta           3672379<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          340397762%
+IDLE           114488087496%
+alpha          2571671<1%
+beta           3916018<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          361864522%
+IDLE           121641856596%
+alpha          2731665<1%
+beta           4159657<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          383358052%
+IDLE           128795357996%
+alpha          2891659<1%
+beta           4403296<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+beta: state=2
+alpha: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          404820142%
+IDLE           135949039896%
+beta           4646935<1%
+alpha          3052997<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+beta: state=2
+alpha: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          426241722%
+IDLE           143103308196%
+beta           4894211<1%
+alpha          3215559<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          447692662%
+IDLE           150263794796%
+alpha          3375553<1%
+beta           5140150<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          469172242%
+IDLE           157424377996%
+alpha          3535547<1%
+beta           5383789<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          490663172%
+IDLE           164577905396%
+alpha          3695541<1%
+beta           5627428<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+beta: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          512129932%
+IDLE           171731674496%
+alpha          3855535<1%
+beta           5871067<1%
+Tmr Svc        2244<1%
+stats: state=0
+IDLE: state=1
+beta: state=2
+alpha: state=2
+Tmr Svc: state=2

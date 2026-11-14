@@ -1,0 +1,25 @@
+Task          Abs Time        % Time
+--------------------------------------
+stats                         12580048 3%
+IDLE                          359940733 96%
+Tmr Svc                       2244 <1%
+alpha                         3794 <1%
+beta                          3739 <1%
+stats: state=0
+IDLE: state=1
+Tmr Svc: state=2
+alpha: state=2
+beta: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats                         15118379 3%
+IDLE                          431922402 96%
+Tmr Svc                       2244 <1%
+alpha                         3794 <1%
+beta                          3739 <1%
+stats: state=0
+IDLE: state=1
+Tmr Svc: state=2
+alpha: state=2
+beta: state=2

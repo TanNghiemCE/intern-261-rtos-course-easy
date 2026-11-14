@@ -1,0 +1,103 @@
+Task          Abs Time        % Time
+--------------------------------------
+stats          16981%
+IDLE           0<1%
+alpha          13551%
+hbeat          14651%
+super          13101%
+Tmr Svc        22362%
+beta           24772%
+stats: state=0
+IDLE: state=1
+hbeat: state=2
+alpha: state=2
+beta: state=2
+super: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          25140433%
+IDLE           7138444895%
+hbeat          77148<1%
+alpha          184953<1%
+beta           302231<1%
+super          62740<1%
+Tmr Svc        2236<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+hbeat: state=2
+beta: state=2
+super: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          51537323%
+IDLE           14271880695%
+alpha          365499<1%
+hbeat          154310<1%
+beta           597293<1%
+super          122709<1%
+Tmr Svc        2236<1%
+
+[DEMO] Injecting AB-BA deadlock at tick=2205 ms (last_refresh=2185 ms)
+[SUPERVISOR] Timeout! bits=0x5 (exC:\Users\DELL\intern-261-rtos-course-easy\skill_rp\report_skill.mdpected 0x7) at tick=2285 ms (last_refresh=2185 ms) -> NO IWDG REFRESH
+[SUPERVISOR] Timeout! bits=0x5 (expected 0x7) at tick=2394 ms (last_refresh=2185 ms) -> NO IWDG REFRESH
+þ
+=== [BOOT] RCC_CSR=0x24000000 | IWDGRSTF=1 (IWDG WATCHDOG RESET) ===
+stats: state=0
+IDLE: state=1
+alpha: state=2
+hbeat: state=2
+super: state=2
+Tmr Svc: state=2
+beta: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          16981%
+IDLE           0<1%
+alpha          13551%
+hbeat          14651%
+super          13101%
+Tmr Svc        22362%
+beta           24772%
+stats: state=0
+IDLE: state=1
+hbeat: state=2
+alpha: state=2
+beta: state=2
+super: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          25140433%
+IDLE           7138444895%
+hbeat          77148<1%
+alpha          184953<1%
+beta           302231<1%
+super          62740<1%
+Tmr Svc        2236<1%
+stats: state=0
+IDLE: state=1
+alpha: state=2
+hbeat: state=2
+beta: state=2
+super: state=2
+Tmr Svc: state=2
+
+Task          Abs Time        % Time
+--------------------------------------
+stats          51537323%
+IDLE           14271880695%
+alpha          365499<1%
+hbeat          154310<1%
+beta           597293<1%
+super          122709<1%
+Tmr Svc        2236<1%
+
+[DEMO] Injecting AB-BA deadlock at tick=2205 ms (last_refresh=2185 ms)
+[SUPERVISOR] Timeout! bits=0x5 (expected 0x7) at tick=2285 ms (last_refresh=2185 ms) -> NO IWDG REFRESH
