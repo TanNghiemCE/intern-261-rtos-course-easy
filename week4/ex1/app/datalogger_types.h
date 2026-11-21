@@ -13,7 +13,7 @@
  *         through the queue on every sample. */
 typedef struct {
     uint32_t timestamp;
-    /* TODO: int16_t accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z; */
+    int16_t accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z; 
 } sensor_sample_t;
 
 #endif /* DATALOGGER_TYPES_H */
